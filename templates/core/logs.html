@@ -1,0 +1,22 @@
+<!--inherits the layout-->
+{% extends '_base.html' %}
+{% load static %}
+<!--passes the page title-->
+{% block title %}{{page_title}}{% endblock title %}
+<!--content starts-->
+{% block content %}
+<section class="section">
+  <div class="container">
+    <h1 class="title has-text-centered">Recorded audios</h1>
+    
+    <div class="level-item has-text-centered">
+      <div>
+        
+        <p>"{% static 'assets/js/video.min.js' %}"</p>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+{% endblock content %}
